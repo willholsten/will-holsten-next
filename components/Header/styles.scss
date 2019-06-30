@@ -1,0 +1,33 @@
+@import '../../styles/main';
+
+.Header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 60px;
+  max-width: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img {
+    width: 30px;
+  }
+}
+
+.scroll {
+  background-color: #fff;
+  a {
+    color: #000;
+  }
+  svg {
+    fill: #000;
+  }
+}

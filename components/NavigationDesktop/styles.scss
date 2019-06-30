@@ -1,0 +1,20 @@
+@import '../../styles/utils/fonts.scss';
+
+.NavigationDesktop {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    font-family: $font-sans-serif;
+    font-size: $font-size-small;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0 10px;
+  }
+
+  :last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+}

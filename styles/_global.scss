@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  color: $light-text-color;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: $font-sans-serif;
+  line-height: $line-height-normal;
+  body {
+    margin: 0;
+    font-size: $font-size-normal;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1 {
+  font-family: $font-serif;
+  letter-spacing: $letter-spacing-large;
+  font-size: $font-size-xxlarge;
+  color: $dark-text-color;
+  text-align: center;
+}
+
+h2 {
+  font-family: $font-serif;
+  font-size: $font-size-xlarge;
+  letter-spacing: $letter-spacing-medium;
+  color: $dark-text-color;
+  text-align: center;
+
+  &:after {
+    content: '';
+    display: block;
+    margin: 20px auto 0;
+    width: 35px;
+    height: 2px;
+    background-color: $purple;
+  }
+}
+
+h3 {
+  font-family: $font-serif;
+  font-size: $font-size-large;
+  line-height: $line-height-large;
+  letter-spacing: $letter-spacing-medium;
+  color: $dark-text-color;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+:global {
+  .orange-bg {
+    background: $orange-bg;
+  }
+  .light-blue-bg {
+    background: $light-blue-bg;
+  }
+  .red-bg {
+    background: $red-bg;
+  }
+  .green-bg {
+    background: $green-bg;
+  }
+  .pink-bg {
+    background: $pink-bg;
+  }
+  .purple-bg {
+    background: $purple-bg;
+  }
+}

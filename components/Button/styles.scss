@@ -1,0 +1,16 @@
+@import '../../styles/main.scss';
+
+.Button {
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+  letter-spacing: $letter-spacing-medium;
+  color: $dark-text-color;
+  text-transform: uppercase;
+  height: 45px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  margin: 5px;
+}
