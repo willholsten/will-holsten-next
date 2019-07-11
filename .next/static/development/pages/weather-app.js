@@ -765,7 +765,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.title
       }, title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Button___WEBPACK_IMPORTED_MODULE_6__["default"], {
-        style: "Button landing-button",
+        classes: "Button white-bg",
         link: link,
         text: buttonText
       })));
@@ -15017,7 +15017,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 20:
 /*!******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fweather-app&absolutePagePath=%2FUsers%2Fwillholsten%2FCode%2FProjects%2FWill-Holsten-Next%2Fpages%2Fweather-app.jsx ***!
   \******************************************************************************************************************************************************************/
@@ -15040,5 +15040,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[20,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=weather-app.js.map

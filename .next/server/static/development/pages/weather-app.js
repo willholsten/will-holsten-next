@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -970,7 +970,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         className: _styles_scss__WEBPACK_IMPORTED_MODULE_7___default.a.title
       }, title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Button___WEBPACK_IMPORTED_MODULE_6__["default"], {
-        style: "Button landing-button",
+        classes: "Button white-bg",
         link: link,
         text: buttonText
       })));
@@ -1653,7 +1653,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!*************************************!*\
   !*** multi ./pages/weather-app.jsx ***!
   \*************************************/

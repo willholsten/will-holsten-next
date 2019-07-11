@@ -11,7 +11,7 @@ export default class PortfolioLanding extends React.Component {
         <div className={`${style.portfolioBackground} ${background}`} />
         <div className={style.landing_content}>
           <h1 className={style.title}>{title}</h1>
-          <Button style='Button landing-button' link={link} text={buttonText} />
+          <Button classes='Button white-bg' link={link} text={buttonText} />
         </div>
       </div>
     );

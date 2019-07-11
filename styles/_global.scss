@@ -33,10 +33,14 @@ h1 {
 
 h2 {
   font-family: $font-serif;
-  font-size: $font-size-xlarge;
+  font-size: $font-size-large;
   letter-spacing: $letter-spacing-medium;
   color: $dark-text-color;
   text-align: center;
+
+  @media (min-width: $screen-md) {
+    font-size: $font-size-xlarge;
+  }
 
   &:after {
     content: '';
