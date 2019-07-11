@@ -3,5 +3,41 @@
 .About {
   background-color: $grey-bg;
   padding: 40px 10px;
-  height: 500px;
+  text-align: center;
+
+  .title {
+    margin-bottom: 150px;
+  }
+
+  .Profile {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+
+  .text {
+    position: relative;
+    max-width: 720px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.2);
+    margin: 0 auto;
+    padding: 100px 10px 30px;
+
+    @media (min-width: $screen-md) {
+      padding: 100px 80px 60px;
+    }
+
+    > * {
+      font-family: $font-paragraph;
+      color: $light-text-color;
+      font-size: $font-size-semi-large;
+      line-height: $line-height-medium;
+      letter-spacing: $letter-spacing-small;
+    }
+  }
 }

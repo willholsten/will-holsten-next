@@ -1,0 +1,95 @@
+@import '../../styles/main.scss';
+
+.WorkBrickContainer {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $screen-md) {
+    > li:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.WorkBrick {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 920px;
+  transition: $transition;
+
+  @media (min-width: $screen-md) {
+    flex-direction: row;
+    height: 420px;
+
+    > div {
+      width: 50%;
+    }
+
+    &:hover {
+      box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.35);
+    }
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px 15px;
+    text-align: center;
+
+    @media (min-width: $screen-md) {
+      padding: 60px;
+      text-align: left;
+    }
+
+    .title {
+      margin-top: 0;
+    }
+  }
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  justify-content: center;
+
+  @media (min-width: $screen-md) {
+    justify-content: flex-start;
+  }
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+
+    img {
+      max-width: 85%;
+      max-height: 85%;
+    }
+  }
+}

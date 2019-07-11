@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
   color: $light-text-color;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 :root {
   font-size: 62.5%;
   font-family: $font-sans-serif;
-  line-height: $line-height-normal;
   body {
     margin: 0;
     font-size: $font-size-normal;
@@ -21,9 +22,13 @@ ul {
 h1 {
   font-family: $font-serif;
   letter-spacing: $letter-spacing-large;
-  font-size: $font-size-xxlarge;
+  font-size: $font-size-xlarge;
   color: $dark-text-color;
   text-align: center;
+
+  @media (min-width: $screen-md) {
+    font-size: $font-size-xxlarge;
+  }
 }
 
 h2 {
@@ -37,9 +42,11 @@ h2 {
     content: '';
     display: block;
     margin: 20px auto 0;
-    width: 35px;
-    height: 2px;
-    background-color: $purple;
+    width: 50px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $dark-text-color;
+    opacity: 0.1;
   }
 }
 
@@ -51,12 +58,20 @@ h3 {
   color: $dark-text-color;
 }
 
+p {
+  line-height: $line-height-medium;
+}
+
 a {
   text-decoration: none;
   color: unset;
 }
 
 :global {
+  .pageContent {
+    position: relative;
+    transition: $transition;
+  }
   .orange-bg {
     background: $orange-bg;
   }
@@ -74,5 +89,11 @@ a {
   }
   .purple-bg {
     background: $purple-bg;
+  }
+  .tomato-bg {
+    background-color: $tomato-bg;
+  }
+  .white-bg {
+    background-color: #fff;
   }
 }

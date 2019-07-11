@@ -1,0 +1,55 @@
+@import '../../styles/main.scss';
+
+.TechStack {
+  background-color: $grey-bg;
+  padding: 40px 15px;
+}
+
+.technologyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 920px;
+  align-content: flex-start;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 100px;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0 0 20px;
+  }
+
+  li {
+    font-size: $font-size-small;
+    font-weight: $font-weight-semi-bold;
+    letter-spacing: $letter-spacing-small;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 50px;
+
+    img {
+      max-width: 85%;
+      max-height: 85%;
+    }
+  }
+}

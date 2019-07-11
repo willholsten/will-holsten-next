@@ -1,0 +1,41 @@
+@import '../../styles/main.scss';
+
+.PortfolioTechnology {
+  background-color: $grey-bg;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.technologyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0 20px 10px;
+  }
+
+  li {
+    margin-right: 20px;
+
+    img {
+      max-width: 85%;
+      max-height: 85%;
+    }
+  }
+}

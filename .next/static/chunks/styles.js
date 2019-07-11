@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"About":"About___2wYa3"};;
+module.exports = {"About":"About___2wYa3","title":"title___mGjbs","Profile":"Profile___3TNwO","text":"text___FydVn"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -30,7 +30,45 @@ module.exports = {"About":"About___2wYa3"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660004017");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562846129585");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/BurgerMenu/styles.scss":
+/*!*******************************************!*\
+  !*** ./components/BurgerMenu/styles.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"BurgerMenu":"BurgerMenu___2THnO"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840036727");
           });
       }
     }
@@ -68,7 +106,45 @@ module.exports = {"Button":"Button___3r7Xx"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660004102");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562836697185");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Footer/styles.scss":
+/*!***************************************!*\
+  !*** ./components/Footer/styles.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"Footer":"Footer___5GHZb","imageOverlay":"imageOverlay___3SSze","title":"title___1G3f7","emailLink":"emailLink___EyKSn","connect":"connect___1tkJh","copyright":"copyright___22ax3"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562836697161");
           });
       }
     }
@@ -106,7 +182,7 @@ module.exports = {"Header":"Header___3_9BY","scroll":"scroll___1olp7"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660004046");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840074851");
           });
       }
     }
@@ -122,7 +198,7 @@ module.exports = {"Header":"Header___3_9BY","scroll":"scroll___1olp7"};;
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"Landing":"Landing___gc9g2","gradient_overlay":"gradient_overlay___cSONL","image_overlay":"image_overlay___2ChkB","landing_content":"landing_content___3Zu0J","title":"title___2BL2e","sub_title":"sub_title___3l0Ja"};;
+module.exports = {"Landing":"Landing___gc9g2","gradientOverlay":"gradientOverlay___S8oHl","imageOverlay":"imageOverlay___RxowA","landingContent":"landingContent___2h6qx","title":"title___2BL2e","subTitle":"subTitle___34_up"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -144,7 +220,7 @@ module.exports = {"Landing":"Landing___gc9g2","gradient_overlay":"gradient_overl
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660003972");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562845501999");
           });
       }
     }
@@ -152,15 +228,14 @@ module.exports = {"Landing":"Landing___gc9g2","gradient_overlay":"gradient_overl
 
 /***/ }),
 
-/***/ "./components/NavigationDesktop/styles.scss":
-/*!**************************************************!*\
-  !*** ./components/NavigationDesktop/styles.scss ***!
-  \**************************************************/
+/***/ "./components/Logo/styles.scss":
+/*!*************************************!*\
+  !*** ./components/Logo/styles.scss ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
-module.exports = {"NavigationDesktop":"NavigationDesktop___2H-7f"};;
+// extracted by mini-css-extract-plugin;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -182,7 +257,311 @@ module.exports = {"NavigationDesktop":"NavigationDesktop___2H-7f"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561659743366");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562836697229");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Navigation/styles.scss":
+/*!*******************************************!*\
+  !*** ./components/Navigation/styles.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"Navigation":"Navigation___1Lw_H","NavigationContainer":"NavigationContainer___2C8y4"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562843661220");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioBrief/styles.scss":
+/*!***********************************************!*\
+  !*** ./components/PortfolioBrief/styles.scss ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"PortfolioBrief":"PortfolioBrief___jJzkX","brief":"brief___2sqgM"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840164382");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioDevices/styles.scss":
+/*!*************************************************!*\
+  !*** ./components/PortfolioDevices/styles.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"PortfolioDevices":"PortfolioDevices___1tSZS","devices":"devices___1pfVe"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562844708125");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioLanding/styles.scss":
+/*!*************************************************!*\
+  !*** ./components/PortfolioLanding/styles.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"Landing":"Landing___2sxTz","imageOverlay":"imageOverlay___1Nde1","gradientOverlay":"gradientOverlay___30_XB","portfolioBackground":"portfolioBackground___3iw5S","landing_content":"landing_content___1Hv6E","title":"title___-MA5D"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840164357");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioLayout/styles.scss":
+/*!************************************************!*\
+  !*** ./components/PortfolioLayout/styles.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"Landing":"Landing___1gicl","gradient_overlay":"gradient_overlay___230hV","landing_content":"landing_content___3rWoT","title":"title___6FY7u"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840164325");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioTechnology/styles.scss":
+/*!****************************************************!*\
+  !*** ./components/PortfolioTechnology/styles.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"PortfolioTechnology":"PortfolioTechnology___2pJP5","technologyContainer":"technologyContainer___2ZcB-","technology":"technology___IrbnE","iconContainer":"iconContainer___2X0GN"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840164320");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/PortfolioWork/styles.scss":
+/*!**********************************************!*\
+  !*** ./components/PortfolioWork/styles.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"PortfolioWork":"PortfolioWork___30tlx","taskContainer":"taskContainer___mq-bC","task":"task___3Ry3-"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562840164411");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/TechStack/styles.scss":
+/*!******************************************!*\
+  !*** ./components/TechStack/styles.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"TechStack":"TechStack___3IDu7","technologyContainer":"technologyContainer___1kBrn","title":"title___171mu","technology":"technology___3viWw","iconContainer":"iconContainer___wOwMY"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1562845502033");
           });
       }
     }
@@ -220,7 +599,7 @@ module.exports = {"Work":"Work___yAV6I"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660004061");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562845501949");
           });
       }
     }
@@ -228,15 +607,15 @@ module.exports = {"Work":"Work___yAV6I"};;
 
 /***/ }),
 
-/***/ "./components/WorkBrick/styles.scss":
-/*!******************************************!*\
-  !*** ./components/WorkBrick/styles.scss ***!
-  \******************************************/
+/***/ "./components/WorkTile/styles.scss":
+/*!*****************************************!*\
+  !*** ./components/WorkTile/styles.scss ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"WorkBrickContainer":"WorkBrickContainer___1hHDW","WorkBrick":"WorkBrick___2s4RH","text":"text___3KLFj","title":"title___3G_zt","imageContainer":"imageContainer___1q-ra","technology":"technology___1FyD_"};;
+module.exports = {"WorkBrickContainer":"WorkBrickContainer___3WIUN","WorkBrick":"WorkBrick___1QzU1","text":"text___3nq2e","title":"title___LE-bf","imageContainer":"imageContainer___2_gFg","technology":"technology___1PH_w"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -258,44 +637,7 @@ module.exports = {"WorkBrickContainer":"WorkBrickContainer___1hHDW","WorkBrick":
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660004089");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./styles/main.scss":
-/*!**************************!*\
-  !*** ./styles/main.scss ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561660003929");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562845502064");
           });
       }
     }

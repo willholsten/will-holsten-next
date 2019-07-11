@@ -3,13 +3,16 @@ import style from './styles.scss';
 
 const Landing = () => (
   <div className={style.Landing}>
-    <div className={style.gradient_overlay} />
-    <div className={style.image_overlay} />
-    <div className={style.landing_content}>
+    <div className={style.gradientOverlay} />
+    <div className={style.imageOverlay} />
+    <div className={style.landingContent}>
       <h1 className={style.title}>Will Holsten</h1>
-      <p className={style.sub_title}>Creative Front End Developer</p>
-      <Button style='Button landing-button' text='Latest Work' />
-      <Button style='Button landing-button' text='CV' />
+      <p className={style.subTitle}>Creative Front End Developer</p>
+      <Button
+        classes='landingButton white-bg'
+        link='#latest-work'
+        text='Latest Work'
+      />
     </div>
   </div>
 );

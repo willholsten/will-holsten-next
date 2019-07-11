@@ -1,38 +1,39 @@
 import React from 'react';
 import Logo from '../Logo';
-import Navigation from '../Navigation';
+import Menu from '../Menu';
 import Container from '@material-ui/core/Container';
 
 import style from './styles.scss';
 
 export default class Header extends React.Component {
-  state = {
-    headerTop: true
-  };
-
-  listenScrollEvent = e => {
-    if (window.scrollY > 40) {
-      this.setState({ headerTop: false });
-    } else {
-      this.setState({ headerTop: true });
-    }
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      scrollTop: true
+    };
+    this.listenScrollEvent = e => {
+      if (window.scrollY > 40) {
+        this.setState({ scrollTop: false });
+      } else {
+        this.setState({ scrollTop: true });
+      }
+    };
+  }
 
   componentDidMount() {
     window.addEventListener('scroll', this.listenScrollEvent);
   }
 
   render() {
-    // const { headerTop } = this.state;
     return (
       <header
         className={`
       ${style.Header}
-      ${this.state.headerTop ? style.Top : style.scroll}
+      ${this.state.scrollTop ? '' : style.scroll}
       `}>
-        <Container maxWidth='lg'>
-          <Logo className='Logo' />
-          <Navigation />
+        <Container>
+          <Logo />
+          <Menu />
         </Container>
       </header>
     );

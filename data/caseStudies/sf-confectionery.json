@@ -1,0 +1,44 @@
+{
+  "slug": "s&f-confectionery",
+  "title": "S&F Confectionery",
+  "image": "../static/images/sfconfectionery.png",
+  "imageDevices": "../static/images/sf-confectionery-devices.png",
+  "modalImage": "../images/modals/sfconfectionery-modal.png",
+  "background": "work-six-bg",
+  "summary": "S&F Confectionery is a B2B importer and distributer of mints.",
+  "link": "https://www.sfconfectionery.com",
+  "brief": "Design and develop a website to display the various products and packing information offered by the business.",
+  "work": [
+    "Complete web design.",
+    "Complete web development solution",
+    "Domain and hosting management.",
+    "Email subscription and contact form management."
+  ],
+  "technology": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "icon": "../static/vectors/technologies/html.svg"
+    },
+    {
+      "id": 2,
+      "name": "Sass",
+      "icon": "../static/vectors/technologies/sass.svg"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "icon": "../static/vectors/technologies/react.svg"
+    },
+    {
+      "id": 4,
+      "name": "Bootstrap",
+      "icon": "../static/vectors/technologies/bootstrap.svg"
+    },
+    {
+      "id": 5,
+      "name": "jQuery",
+      "icon": "../static/vectors/technologies/jquery.svg"
+    }
+  ]
+}

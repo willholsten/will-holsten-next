@@ -2,11 +2,12 @@ import React from 'react';
 import style from './styles.scss';
 
 export default class Button extends React.Component {
-  render() {
+  render(props) {
+    const { classes, text, link } = this.props;
     return (
-      <button className={`${style.Button} ${this.props.classes}`}>
-        {this.props.text}
-      </button>
+      <a href={link}>
+        <button className={`${style.Button} ${classes}`}>{text}</button>
+      </a>
     );
   }
 }

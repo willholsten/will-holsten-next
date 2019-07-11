@@ -1,0 +1,72 @@
+@import '../../styles/main';
+
+.Footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+  max-width: 100%;
+  z-index: 0;
+  transition: all 0.5s;
+  background-color: $grey-bg;
+  text-align: center;
+  padding: 400px 15px 0;
+
+  .imageOverlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/vectors/footer.svg');
+    z-index: -1;
+  }
+
+  .title {
+    color: #fff;
+    margin: 0 auto 50px;
+
+    &:after {
+      background-color: #fff;
+    }
+  }
+
+  .emailLink {
+    display: block;
+  }
+
+  .connect {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 100%;
+      height: 55px;
+      width: 55px;
+      padding: 10px;
+      margin: 0 15px;
+      transition: $transition;
+
+      &:hover {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    i {
+      font-size: $font-size-large;
+      color: #8645b7;
+    }
+  }
+
+  .copyright {
+    font-size: $font-size-small;
+    color: #fff;
+    margin-top: 20px;
+  }
+}
