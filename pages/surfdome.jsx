@@ -6,7 +6,7 @@ import data from '../data/caseStudies/surfdome.json';
 export default class Index extends React.Component {
   render() {
     return (
-      <Layout metaTitle='Will Holsten | Weather App'>
+      <Layout metaTitle='Will Holsten | Surfdome'>
         <PortfolioLayout
           title={data.title}
           brief={data.brief}

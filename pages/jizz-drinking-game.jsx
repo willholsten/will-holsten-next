@@ -6,7 +6,7 @@ import data from '../data/caseStudies/jizz-drinking-game.json';
 export default class Index extends React.Component {
   render() {
     return (
-      <Layout metaTitle='Will Holsten | Weather App'>
+      <Layout metaTitle='Will Holsten | Jizz Drinking Game'>
         <PortfolioLayout
           title={data.title}
           brief={data.brief}
