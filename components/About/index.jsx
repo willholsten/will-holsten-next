@@ -10,7 +10,7 @@ export default function About() {
         <div className={style.text}>
           <img
             className={style.Profile}
-            src='../../static/images/profile1.png'
+            src='../../static/images/profile.png'
           />
           <p>Hey, I'm Will, a front end developer based in London.</p>
           <p>

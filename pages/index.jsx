@@ -4,6 +4,7 @@ import Landing from '../components/Landing';
 import About from '../components/About';
 import Work from '../components/Work';
 import TechStack from '../components/TechStack';
+import CorePrinciples from '../components/CorePrinciples';
 
 export default class Index extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class Index extends React.Component {
       <Layout metaTitle='Will Holsten | Creative Front End Developer'>
         <Landing />
         <About />
+        <CorePrinciples />
         <Work />
         <TechStack />
       </Layout>

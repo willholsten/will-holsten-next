@@ -30,6 +30,11 @@
     },
     {
       "id": 3,
+      "name": "JavaScript",
+      "icon": "../static/vectors/technologies/javascript.svg"
+    },
+    {
+      "id": 4,
       "name": "Adobe CC",
       "icon": "../static/vectors/technologies/adobe-cc.svg"
     }

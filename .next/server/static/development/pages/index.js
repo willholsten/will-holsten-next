@@ -123,7 +123,7 @@ function About() {
     className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Profile,
-    src: "../../static/images/profile1.png"
+    src: "../../static/images/profile.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hey, I'm Will, a front end developer based in London."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Originally from South Australia, I graduated from The University of Adelaide with a Bachelor of Design Studies and have since grown an interest in both UX design and front end development. Having now worked in both of these fields for a number of years, I have extensive experience working in multi-functional, agile team environments with a primary focus on eCommerce solutions."))));
 }
 
@@ -283,6 +283,73 @@ function (_React$Component) {
 
 module.exports = {
 	"Button": "Button___3r7Xx"
+};
+
+/***/ }),
+
+/***/ "./components/CorePrinciples/index.jsx":
+/*!*********************************************!*\
+  !*** ./components/CorePrinciples/index.jsx ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return CorePrinciples; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scrollable-anchor */ "react-scrollable-anchor");
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _data_corePrinciples__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../data/corePrinciples */ "./data/corePrinciples.json");
+var _data_corePrinciples__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/corePrinciples */ "./data/corePrinciples.json", 1);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/CorePrinciples/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+function CorePrinciples() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: 'corePrinciples'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.CorePrinciples
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.title
+  }, "Core Principles"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.principleContainer
+  }, _data_corePrinciples__WEBPACK_IMPORTED_MODULE_2__.map(function (principle, key) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.principle,
+      key: principle.title
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.imageContainer
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: principle.icon
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.principleTitle
+    }, principle.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_3___default.a.text
+    }, principle.text)));
+  }))));
+}
+
+/***/ }),
+
+/***/ "./components/CorePrinciples/styles.scss":
+/*!***********************************************!*\
+  !*** ./components/CorePrinciples/styles.scss ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"CorePrinciples": "CorePrinciples___12xaa",
+	"principleContainer": "principleContainer___g83Vu",
+	"principle": "principle___3G38w",
+	"principleTitle": "principleTitle___JCiwc",
+	"imageContainer": "imageContainer___vgZrK",
+	"text": "text___3SxJx"
 };
 
 /***/ }),
@@ -1160,7 +1227,7 @@ module.exports = {"slug":"royal-derby-hotel","title":"Royal Derby Hotel","image"
 /*! exports provided: slug, title, image, imageDevices, background, summary, link, brief, work, technology, default */
 /***/ (function(module) {
 
-module.exports = {"slug":"surfdome","title":"Surfdome","image":"../static/images/surfdome.png","imageDevices":"../static/images/surfdome-devices.png","background":"pink-bg","summary":"Surfdome is an online retailer specialising in surf, snow and skate apparel and hardware.","link":"https://www.surfdome.com","brief":"I was employed as a UX designer / front end developer at Surfdome for two years, some of the contributions I made are listed below.","work":["Working with multiple teams including tech, design, UX and trading to manage the front end of the website across 2 companies and 7 domains.","Designing and building HTML email newsletters to a target audience of over 1.2 million people.","Lead UX designer for complete website design overhaul. Working with the UX manager and tech team to produce homepage, PLP, PDP and basket & checkout design improvements.","Created A/B tests using Optimizely."],"technology":[{"id":1,"name":"HTML5","icon":"../static/vectors/technologies/html.svg"},{"id":2,"name":"Sass","icon":"../static/vectors/technologies/sass.svg"},{"id":3,"name":"jQuery","icon":"../static/vectors/technologies/jquery.svg"},{"id":3,"name":"Adobe CC","icon":"../static/vectors/technologies/adobe-cc.svg"}]};
+module.exports = {"slug":"surfdome","title":"Surfdome","image":"../static/images/surfdome.png","imageDevices":"../static/images/surfdome-devices.png","background":"pink-bg","summary":"Surfdome is an online retailer specialising in surf, snow and skate apparel and hardware.","link":"https://www.surfdome.com","brief":"I was employed as a UX designer / front end developer at Surfdome for two years, some of the contributions I made are listed below.","work":["Working with multiple teams including tech, design, UX and trading to manage the front end of the website across 2 companies and 7 domains.","Designing and building HTML email newsletters to a target audience of over 1.2 million people.","Lead UX designer for complete website design overhaul. Working with the UX manager and tech team to produce homepage, PLP, PDP and basket & checkout design improvements.","Created A/B tests using Optimizely."],"technology":[{"id":1,"name":"HTML5","icon":"../static/vectors/technologies/html.svg"},{"id":2,"name":"Sass","icon":"../static/vectors/technologies/sass.svg"},{"id":3,"name":"jQuery","icon":"../static/vectors/technologies/jquery.svg"},{"id":4,"name":"Adobe CC","icon":"../static/vectors/technologies/adobe-cc.svg"}]};
 
 /***/ }),
 
@@ -1171,7 +1238,7 @@ module.exports = {"slug":"surfdome","title":"Surfdome","image":"../static/images
 /*! exports provided: slug, title, image, modalImage, imageDevices, background, summary, link, brief, work, technology, default */
 /***/ (function(module) {
 
-module.exports = {"slug":"the-stolberg","title":"The Stolberg","image":"../static/images/stolberg.png","modalImage":"../images/modals/stolberg-modal.png","imageDevices":"../static/images/stolberg-devices.png","background":"light-blue-bg","summary":"The Stolberg is bar and event space in Preston, Melbourne.","link":"https://www.stolberg.com.au","brief":"Create a mobile first website so clientel can easily navigate to and book the various event spaces.","work":["Complete web design.","Complete web development.","Created booking services for the event hire rooms.","Photography optisation.","Domain and hosting management.","Google Analytics integration.","Email subscription and contact form management."],"technology":[{"id":1,"name":"HTML5","icon":"../static/vectors/technologies/html.svg"},{"id":2,"name":"Sass","icon":"../static/vectors/technologies/sass.svg"},{"id":3,"name":"Adobe CC","icon":"../static/vectors/technologies/adobe-cc.svg"}]};
+module.exports = {"slug":"the-stolberg","title":"The Stolberg","image":"../static/images/stolberg.png","modalImage":"../images/modals/stolberg-modal.png","imageDevices":"../static/images/stolberg-devices.png","background":"light-blue-bg","summary":"The Stolberg is bar and event space in Preston, Melbourne.","link":"https://www.stolberg.com.au","brief":"Create a mobile first website so clientel can easily navigate to and book the various event spaces.","work":["Complete web design.","Complete web development.","Created booking services for the event hire rooms.","Photography optisation.","Domain and hosting management.","Google Analytics integration.","Email subscription and contact form management."],"technology":[{"id":1,"name":"HTML5","icon":"../static/vectors/technologies/html.svg"},{"id":2,"name":"Sass","icon":"../static/vectors/technologies/sass.svg"},{"id":3,"name":"JavaScript","icon":"../static/vectors/technologies/javascript.svg"},{"id":4,"name":"Adobe CC","icon":"../static/vectors/technologies/adobe-cc.svg"}]};
 
 /***/ }),
 
@@ -1183,6 +1250,17 @@ module.exports = {"slug":"the-stolberg","title":"The Stolberg","image":"../stati
 /***/ (function(module) {
 
 module.exports = {"slug":"weather-app","title":"Weather App","url":"https://wh-weather-app.netlify.com/","image":"../static/images/weather-app.png","imageDevices":"../static/images/weather-app-devices.png","background":"orange-bg","summary":"Personal weather app project.","brief":"A weather app that pulls in live and forecast weather with an image that matches the location.","work":["Custom web design and developed using React.","Current and forecast weather using Apixu Weather API.","Image matches the location using Unsplash Photos API.","Find weather by current location.","Find weahter by a search query which includes a list of relative search results."],"technology":[{"id":1,"name":"HTML5","icon":"../static/vectors/technologies/html.svg"},{"id":2,"name":"Sass","icon":"../static/vectors/technologies/sass.svg"},{"id":3,"name":"React","icon":"../static/vectors/technologies/react.svg"},{"id":4,"name":"JavaScript","icon":"../static/vectors/technologies/javascript.svg"}]};
+
+/***/ }),
+
+/***/ "./data/corePrinciples.json":
+/*!**********************************!*\
+  !*** ./data/corePrinciples.json ***!
+  \**********************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = [{"title":"Eye for Design","text":"With a background in web design, I can help consult and proof designs before they go into development.","icon":"../static/vectors/eye.svg"},{"title":"Latest Technologies","text":"In this industry it's important to keep up with the latest technologies and I make that a priority.","icon":"../static/vectors/rocket.svg"},{"title":"Scalable for the Future","text":"There's nothing worse than a business being held up by poor development, I make sure all of my web solutions can scale with the business.","icon":"../static/vectors/growth.svg"}];
 
 /***/ }),
 
@@ -1537,6 +1615,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/About */ "./components/About/index.jsx");
 /* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Work */ "./components/Work/index.jsx");
 /* harmony import */ var _components_TechStack__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/TechStack */ "./components/TechStack/index.jsx");
+/* harmony import */ var _components_CorePrinciples__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/CorePrinciples */ "./components/CorePrinciples/index.jsx");
+
 
 
 
@@ -1565,7 +1645,7 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         metaTitle: "Will Holsten | Creative Front End Developer"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Landing__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Work__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_TechStack__WEBPACK_IMPORTED_MODULE_10__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Landing__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_CorePrinciples__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Work__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_TechStack__WEBPACK_IMPORTED_MODULE_10__["default"], null));
     }
   }]);
 
