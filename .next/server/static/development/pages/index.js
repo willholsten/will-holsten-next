@@ -124,7 +124,9 @@ function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Profile,
     src: "../../static/images/profile.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hey, I'm Will, a front end developer based in London."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Originally from South Australia, I graduated from The University of Adelaide with a Bachelor of Design Studies and have since grown an interest in both UX design and front end development. Having now worked in both of these fields for a number of years, I have extensive experience working in multi-functional, agile team environments with a primary focus on eCommerce solutions."))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.intro
+  }, "Hey! I'm Will, a London-based front end developer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Originally from South Australia, I graduated from The University of Adelaide with a Bachelor of Design Studies and have since grown an interest in both UX design and front end development. Having now worked in both of these fields for a number of years, I have extensive experience working in multi-functional, agile team environments with a primary focus on eCommerce solutions."))));
 }
 
 /***/ }),
@@ -140,7 +142,8 @@ module.exports = {
 	"About": "About___2wYa3",
 	"title": "title___mGjbs",
 	"Profile": "Profile___3TNwO",
-	"text": "text___FydVn"
+	"text": "text___FydVn",
+	"intro": "intro___6SKsj"
 };
 
 /***/ }),

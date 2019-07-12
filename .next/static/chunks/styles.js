@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"About":"About___2wYa3","title":"title___mGjbs","Profile":"Profile___3TNwO","text":"text___FydVn"};;
+module.exports = {"About":"About___2wYa3","title":"title___mGjbs","Profile":"Profile___3TNwO","text":"text___FydVn","intro":"intro___6SKsj"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -30,7 +30,7 @@ module.exports = {"About":"About___2wYa3","title":"title___mGjbs","Profile":"Pro
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1562930559665");
+            injectCss(link, link.href.split("?")[0] + "?unix=1562937043873");
           });
       }
     }

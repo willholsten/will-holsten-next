@@ -39,5 +39,11 @@
       line-height: $line-height-medium;
       letter-spacing: $letter-spacing-small;
     }
+
+    .intro {
+      font-size: 2rem;
+      font-weight: bold;
+      color: $dark-text-color;
+    }
   }
 }

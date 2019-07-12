@@ -12,7 +12,9 @@ export default function About() {
             className={style.Profile}
             src='../../static/images/profile.png'
           />
-          <p>Hey, I'm Will, a front end developer based in London.</p>
+          <p className={style.intro}>
+            Hey! I'm Will, a London-based front end developer.
+          </p>
           <p>
             Originally from South Australia, I graduated from The University of
             Adelaide with a Bachelor of Design Studies and have since grown an
