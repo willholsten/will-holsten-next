@@ -1619,6 +1619,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Work */ "./components/Work/index.jsx");
 /* harmony import */ var _components_TechStack__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/TechStack */ "./components/TechStack/index.jsx");
 /* harmony import */ var _components_CorePrinciples__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/CorePrinciples */ "./components/CorePrinciples/index.jsx");
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-scrollable-anchor */ "react-scrollable-anchor");
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_12__);
+
 
 
 
@@ -1646,6 +1649,9 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
     value: function render() {
+      Object(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_12__["configureAnchors"])({
+        offset: -50
+      });
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         metaTitle: "Will Holsten | Creative Front End Developer"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Landing__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_CorePrinciples__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Work__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_TechStack__WEBPACK_IMPORTED_MODULE_10__["default"], null));
