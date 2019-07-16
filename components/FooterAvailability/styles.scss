@@ -1,0 +1,55 @@
+@import '../../styles/main';
+
+.availability {
+  color: #fff;
+  margin-bottom: 50px;
+
+  .pulse {
+    margin-right: 20px;
+    margin-top: -2px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(#80e3b1, 0.4);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
+    70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
+    70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }
+
+  .date {
+    display: block;
+    font-size: $font-size-small;
+    margin-top: 10px;
+    color: #fff;
+  }
+}

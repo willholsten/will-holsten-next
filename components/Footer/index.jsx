@@ -1,6 +1,8 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Button from '../Button';
+import FooterSocial from '../FooterSocial';
+import FooterAvailability from '../FooterAvailability';
 import style from './styles.scss';
 
 export default class Footer extends React.Component {
@@ -10,19 +12,13 @@ export default class Footer extends React.Component {
         <footer className={style.Footer}>
           <div className={style.imageOverlay} />
           <h2 className={style.title}>Let's Work Together</h2>
+          <FooterAvailability />
           <Button
             classes='emailLink tomato-bg whiteText'
             link='mailto:mail@willholsten.com'
             text="Let's Talk!"
           />
-          <div className={style.connect}>
-            <a href='https://github.com/willholsten' target='_blank'>
-              <i className='fab fa-github-square' />
-            </a>
-            <a href='https://www.linkedin.com/in/willholsten/' target='_blank'>
-              <i className='fab fa-linkedin' />
-            </a>
-          </div>
+          <FooterSocial />
           <div className={style.copyright}>
             Will Holsten Ltd. &copy; All Rights Reserved.
           </div>
