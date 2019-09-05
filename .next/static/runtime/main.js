@@ -7451,7 +7451,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/willholsten/Code/Projects/Will-Holsten-Next/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/willholsten/Code/Projects/will-holsten-next/.next");
       return error;
     }
   };

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -139,11 +139,11 @@ function About() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"About": "About___2wYa3",
-	"title": "title___mGjbs",
-	"Profile": "Profile___3TNwO",
-	"text": "text___FydVn",
-	"intro": "intro___6SKsj"
+	"About": "About__2wYa3",
+	"title": "title__mGjbs",
+	"Profile": "Profile__3TNwO",
+	"text": "text__FydVn",
+	"intro": "intro__6SKsj"
 };
 
 /***/ }),
@@ -212,7 +212,7 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"BurgerMenu": "BurgerMenu___2THnO"
+	"BurgerMenu": "BurgerMenu__2THnO"
 };
 
 /***/ }),
@@ -285,7 +285,7 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Button": "Button___3r7Xx"
+	"Button": "Button__3r7Xx"
 };
 
 /***/ }),
@@ -347,12 +347,12 @@ function CorePrinciples() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"CorePrinciples": "CorePrinciples___12xaa",
-	"principleContainer": "principleContainer___g83Vu",
-	"principle": "principle___3G38w",
-	"principleTitle": "principleTitle___JCiwc",
-	"imageContainer": "imageContainer___vgZrK",
-	"text": "text___3SxJx"
+	"CorePrinciples": "CorePrinciples__12xaa",
+	"principleContainer": "principleContainer__g83Vu",
+	"principle": "principle__3G38w",
+	"principleTitle": "principleTitle__JCiwc",
+	"imageContainer": "imageContainer__vgZrK",
+	"text": "text__3SxJx"
 };
 
 /***/ }),
@@ -440,12 +440,12 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Footer": "Footer___5GHZb",
-	"imageOverlay": "imageOverlay___3SSze",
-	"title": "title___1G3f7",
-	"emailLink": "emailLink___EyKSn",
-	"connect": "connect___1tkJh",
-	"copyright": "copyright___22ax3"
+	"Footer": "Footer__5GHZb",
+	"imageOverlay": "imageOverlay__3SSze",
+	"title": "title__1G3f7",
+	"emailLink": "emailLink__EyKSn",
+	"connect": "connect__1tkJh",
+	"copyright": "copyright__22ax3"
 };
 
 /***/ }),
@@ -516,9 +516,9 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"availability": "availability___2nLiT",
-	"pulse": "pulse___KZioH",
-	"date": "date___8mKJq"
+	"availability": "availability__2nLiT",
+	"pulse": "pulse__KZioH",
+	"date": "date__8mKJq"
 };
 
 /***/ }),
@@ -595,7 +595,7 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"connect": "connect___1mhqN"
+	"connect": "connect__1mhqN"
 };
 
 /***/ }),
@@ -693,8 +693,8 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Header": "Header___3_9BY",
-	"scroll": "scroll___1olp7"
+	"Header": "Header__3_9BY",
+	"scroll": "scroll__1olp7"
 };
 
 /***/ }),
@@ -749,12 +749,12 @@ var Landing = function Landing() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Landing": "Landing___gc9g2",
-	"gradientOverlay": "gradientOverlay___S8oHl",
-	"imageOverlay": "imageOverlay___RxowA",
-	"landingContent": "landingContent___2h6qx",
-	"title": "title___2BL2e",
-	"subTitle": "subTitle___34_up"
+	"Landing": "Landing__gc9g2",
+	"gradientOverlay": "gradientOverlay__S8oHl",
+	"imageOverlay": "imageOverlay__RxowA",
+	"landingContent": "landingContent__2h6qx",
+	"title": "title__2BL2e",
+	"subTitle": "subTitle__34_up"
 };
 
 /***/ }),
@@ -1082,8 +1082,8 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Navigation": "Navigation___1Lw_H",
-	"NavigationContainer": "NavigationContainer___2C8y4"
+	"Navigation": "Navigation__1Lw_H",
+	"NavigationContainer": "NavigationContainer__2C8y4"
 };
 
 /***/ }),
@@ -1144,11 +1144,11 @@ function TechStack() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"TechStack": "TechStack___3IDu7",
-	"technologyContainer": "technologyContainer___1kBrn",
-	"title": "title___171mu",
-	"technology": "technology___3viWw",
-	"iconContainer": "iconContainer___wOwMY"
+	"TechStack": "TechStack__3IDu7",
+	"technologyContainer": "technologyContainer__1kBrn",
+	"title": "title__171mu",
+	"technology": "technology__3viWw",
+	"iconContainer": "iconContainer__wOwMY"
 };
 
 /***/ }),
@@ -1192,7 +1192,7 @@ function Work() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Work": "Work___yAV6I"
+	"Work": "Work__yAV6I"
 };
 
 /***/ }),
@@ -1301,13 +1301,13 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"WorkBrickContainer": "WorkBrickContainer___3WIUN",
-	"WorkBrick": "WorkBrick___1QzU1",
-	"image": "image___Muxg3",
-	"text": "text___3nq2e",
-	"title": "title___LE-bf",
-	"imageContainer": "imageContainer___2_gFg",
-	"technology": "technology___1PH_w"
+	"WorkBrickContainer": "WorkBrickContainer__3WIUN",
+	"WorkBrick": "WorkBrick__1QzU1",
+	"image": "image__Muxg3",
+	"text": "text__3nq2e",
+	"title": "title__LE-bf",
+	"imageContainer": "imageContainer__2_gFg",
+	"technology": "technology__1PH_w"
 };
 
 /***/ }),
@@ -1808,14 +1808,14 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.jsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/willholsten/Code/Projects/Will-Holsten-Next/pages/index.jsx */"./pages/index.jsx");
+module.exports = __webpack_require__(/*! /Users/willholsten/Code/Projects/will-holsten-next/pages/index.jsx */"./pages/index.jsx");
 
 
 /***/ }),
