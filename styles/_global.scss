@@ -36,6 +36,7 @@ h2 {
   font-size: $font-size-large;
   letter-spacing: $letter-spacing-medium;
   color: $dark-text-color;
+  line-height: $line-height-large;
   text-align: center;
 
   @media (min-width: $screen-md) {

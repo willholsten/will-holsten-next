@@ -1,0 +1,40 @@
+@import "../../styles/main.scss";
+
+.Companies {
+  background-color: $grey-bg;
+  padding: 40px 10px;
+  text-align: center;
+  max-width: 100%;
+
+  .title {
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 100px;
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    img {
+      width: 50%;
+      margin: 0;
+      height: auto;
+      padding: 10px 20px;
+      opacity: 0.3;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+
+      @media (min-width: $screen-md) {
+        width: 25%;
+        padding: 0 20px;
+      }
+    }
+  }
+}
