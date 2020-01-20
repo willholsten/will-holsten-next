@@ -21,20 +21,32 @@
     max-width: 920px;
     margin: 0 auto;
     justify-content: space-around;
-
-    img {
-      width: 50%;
-      margin: 0;
-      height: 100%;
-      padding: 10px 20px;
-      opacity: 0.3;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
+    
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: calc((100%/2) - 10px);
+      background-color: #fff;
+      border-radius: 15px;
+      margin: 5px;
+      padding: 10px;
 
       @media (min-width: $screen-md) {
-        width: 25%;
-        padding: 0 20px;
+        width: calc((100%/4) - 30px);
       }
+    }
+
+    img {
+      margin: 10px;
+      // height: 100%;
+      max-width: 100%;
+      opacity: 0.4;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      
+
+     
     }
   }
 }

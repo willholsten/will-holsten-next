@@ -5,7 +5,7 @@ export default class PortfolioBrief extends React.Component {
     const { brief } = this.props;
     return (
       <div className={style.PortfolioBrief}>
-        <h2 className={style.title}>Brief</h2>
+        <h2 className={style.title}>The Project</h2>
         <p className={style.brief}>{brief}</p>
       </div>
     );

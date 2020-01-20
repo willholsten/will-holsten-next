@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
           />
           <FooterSocial />
           <div className={style.copyright}>
-            Will Holsten Ltd. &copy; All Rights Reserved.
+            Will Holsten Ltd. &copy; {new Date().getFullYear()} All Rights Reserved.
           </div>
         </footer>
       </ScrollableAnchor>

@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-backstage",
+  "title": "Samsung Backstage",
+  "url": "https://www.samsungbackstage.co.uk/",
+  "image": "../static/images/samsung-backstage.png",
+  "imageDevices": "../static/images/samsung-backstage-devices.png",
+  "background": "dark-purple-bg",
+  "summary": "Samsung Backstage",
+  "brief": "To build an e-learning platform to help Samsung exployees to sell products and services.",
+  "work": [
+    "Working with UX designers and back end developers to build the front end of the web app.",
+    "Creating courses and quizzes on the Totara e-learning platform.",
+    "Migrating existing landing pages to the new platform.",
+    "Working with various web services to keep account data in sync with the back end."
+  ],
+  "technology": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "icon": "../static/vectors/technologies/html.svg"
+    },
+    {
+      "id": 2,
+      "name": "Sass",
+      "icon": "../static/vectors/technologies/sass.svg"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "icon": "../static/vectors/technologies/react.svg"
+    },
+    {
+      "id": 4,
+      "name": "jQuery",
+      "icon": "../static/vectors/technologies/jquery.svg"
+    }
+  ]
+}

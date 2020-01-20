@@ -14,16 +14,17 @@ export default class WorkTile extends React.Component {
               <div className={`${style.imageContainer} ${item.background}`}>
                 <img className={style.image} src={item.image} alt={item.name} />
               </div>
+              <div className={style.textContainer}>
               <div className={style.text}>
                 <h3 className={style.title}>{item.title}</h3>
-                <p>{item.summary}</p>
+                {/* <p>{item.summary}</p>
                 <ul className={style.technology}>
                   {item.technology.map((tech, key) => (
                     <li className={style.tech} key={tech.id}>
                       <img src={tech.icon} alt={tech.name} title={tech.name} />
                     </li>
                   ))}
-                </ul>
+                </ul> */}
                 <Button
                   link={item.slug}
                   title={item.title}
@@ -31,6 +32,7 @@ export default class WorkTile extends React.Component {
                   background={item.background}
                   text='View Project'
                 />
+              </div>
               </div>
             </li>
           ))}

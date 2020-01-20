@@ -2,13 +2,15 @@
 
 .WorkBrickContainer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 920px;
+  margin: 0 auto;
 
-  @media (min-width: $screen-md) {
-    > li:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-  }
+  // @media (min-width: $screen-md) {
+  //   > li:nth-child(even) {
+  //     flex-direction: row-reverse;
+  //   }
+  // }
 }
 
 .WorkBrick {
@@ -17,17 +19,15 @@
   box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.2);
   border-radius: 15px;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 20px 0;
   width: 100%;
-  max-width: 920px;
+  background-color: #fff;
+  
   transition: $transition;
 
   @media (min-width: $screen-md) {
-    flex-direction: row;
-
-    > div {
-      width: 50%;
-    }
+    margin: 20px 15px;
+    width: calc((100%/2) - 30px);
 
     &:hover {
       box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.35);
@@ -38,17 +38,19 @@
     }
   }
 
+  .textContainer {
+    height: 230px;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    justify-content: space-between;
+    
     padding: 30px 15px;
     text-align: center;
-
-    @media (min-width: $screen-md) {
-      padding: 60px;
-      text-align: left;
-    }
+    height: 100%;
+    max-height: 100%;
 
     .title {
       margin-top: 0;

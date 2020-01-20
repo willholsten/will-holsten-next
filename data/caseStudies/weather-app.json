@@ -9,10 +9,10 @@
   "brief": "A weather app that pulls in live and forecast weather with an image that matches the location.",
   "work": [
     "Custom web design and developed using React.",
-    "Current and forecast weather using Apixu Weather API.",
-    "Image matches the location using Unsplash Photos API.",
-    "Find weather by current location.",
-    "Find weahter by a search query which includes a list of relative search results."
+    "List current and forecast weather using Apixu Weather API.",
+    "Display an image matches the location using Unsplash Photos API.",
+    "Finding weather results by current location.",
+    "Finding weather results by search query."
   ],
   "technology": [
     {

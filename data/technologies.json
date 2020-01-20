@@ -44,6 +44,10 @@
     "icon": "../static/vectors/technologies/jquery.svg"
   },
   {
+    "name": "Material UI",
+    "icon": "../static/vectors/technologies/material-ui.svg"
+  },
+  {
     "name": "Next js",
     "icon": "../static/vectors/technologies/nextjs.svg"
   },
@@ -62,6 +66,10 @@
   {
     "name": "Sass",
     "icon": "../static/vectors/technologies/sass.svg"
+  },
+  {
+    "name": "Shopify",
+    "icon": "../static/vectors/technologies/shopify.svg"
   },
   {
     "name": "Symfony",

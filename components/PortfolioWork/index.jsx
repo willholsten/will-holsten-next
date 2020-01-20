@@ -5,7 +5,7 @@ export default class PortfolioTechnology extends React.Component {
     const { work } = this.props;
     return (
       <div className={style.PortfolioWork}>
-        <h2>How I Helped</h2>
+        <h2>What Was Involved</h2>
         <div className={style.tasks}>
           <ul className={style.taskContainer}>
             {work.map((task, key) => (
