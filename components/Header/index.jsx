@@ -30,7 +30,8 @@ export default class Header extends React.Component {
         className={`
       ${style.Header}
       ${this.state.scrollTop ? '' : style.scroll}
-      `}>
+      `}
+      >
         <Container>
           <Logo />
           <Menu />

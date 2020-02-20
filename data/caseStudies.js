@@ -1,4 +1,5 @@
 module.exports = {
+  theIdealSunday: require('./caseStudies/the-ideal-sunday.json'),
   samsungBackstage: require('./caseStudies/samsung-backstage.json'),
   // weatherApp: require('./caseStudies/weather-app.json'),
   idMobile: require('./caseStudies/id-mobile.json'),

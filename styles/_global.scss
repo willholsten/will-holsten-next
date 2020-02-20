@@ -77,6 +77,9 @@ a {
     position: relative;
     transition: $transition;
   }
+  .black-bg {
+    background: $black-bg;
+  }
   .orange-bg {
     background: $orange-bg;
   }

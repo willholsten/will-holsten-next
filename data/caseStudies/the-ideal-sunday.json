@@ -1,0 +1,22 @@
+{
+  "slug": "the-ideal-sunday",
+  "title": "The Ideal Sunday",
+  "url": "https://www.theidealsunday.com",
+  "image": "../static/images/the-ideal-sunday.png",
+  "imageDevices": "../static/images/the-ideal-sunday-devices.png",
+  "background": "black-bg",
+  "summary": "iD Mobile is a mobile virtual network operating in the United Kingdom.",
+  "brief": "Start an ecommerce business to raise awareness and help people find eco-friendly alternatives to everyday essentials",
+  "work": [
+    "Source products from ethical wholesalers.",
+    "Use eco-friendly, plastic free packaging.",
+    "Build a Shopify store and customise the theme."
+  ],
+  "technology": [
+    {
+      "id": 1,
+      "name": "Shopify",
+      "icon": "../static/vectors/technologies/shopify.svg"
+    }
+  ]
+}
