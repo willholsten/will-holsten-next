@@ -6,7 +6,7 @@ export default class FooterAvailability extends React.Component {
     return (
       <span className={style.availability}>
         <span className={style.pulse} />
-        Now available for contract positions
+        Currently unavailable for projects.
       </span>
     );
   }
