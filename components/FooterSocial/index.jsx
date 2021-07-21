@@ -9,7 +9,7 @@ export default class FooterSocial extends React.Component {
           <i className='fab fa-github-square' />
         </a>
         <a href='https://www.linkedin.com/in/willholsten/' target='_blank'>
-          <i className='fab fa-linkedin' />
+        <i className="fab fa-linkedin-in"></i>
         </a>
       </div>
     );

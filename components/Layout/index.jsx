@@ -38,11 +38,12 @@ export default class Layout extends React.Component {
             href='https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,700|Lora&display=swap'
             rel='stylesheet'
           />
+          <script src='https://kit.fontawesome.com/d54483515e.js' />
         </Head>
         <Header />
         {children}
         <Footer />
-        <script src='https://kit.fontawesome.com/d54483515e.js' />
+        
       </div>
     );
   }

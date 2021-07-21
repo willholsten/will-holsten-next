@@ -8,12 +8,12 @@
     margin-right: 20px;
     margin-top: -2px;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    background: red;
+    background: greenyellow;
     cursor: pointer;
-    box-shadow: 0 0 0 rgba(red, 0.4);
+    box-shadow: 0 0 0 rgba(greenyellow, 0.4);
     animation: pulse 2s infinite;
   }
   .pulse:hover {
